@@ -22,8 +22,8 @@ A simple and elegant **Marriage Biodata Generator** built with **React.js**. Thi
 
 ### 1️⃣ Clone the Repository:
 ```sh
-git clone https://github.com/your-username/biodata-creator.git
-cd biodata-creator
+git clone https://github.com/nirajj87/biodata.git
+cd biodat
 ```
 
 ### 2️⃣ Install Dependencies:
