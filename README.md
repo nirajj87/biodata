@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# 📜 Biodata Creator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and elegant **Marriage Biodata Generator** built with **React.js**. This web application allows users to enter their personal details, upload a profile picture, preview their biodata, and download a well-formatted PDF.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+✅ **User-friendly interface** to enter biodata details  
+✅ **Upload a profile image** to personalize the biodata  
+✅ **Live preview** before downloading  
+✅ **Download as a PDF** in a clean, professional format  
+✅ **Responsive design** for mobile & desktop  
 
-### `npm start`
+## 🛠️ Technology Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend:** React.js, Tailwind CSS *(or any styling library you use)*  
+- **PDF Generation:** react-to-print / jsPDF *(mention the library you use)*  
+- **State Management:** React Hooks *(or Redux if applicable)*  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 📥 Installation & Setup
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 1️⃣ Clone the Repository:
+```sh
+git clone https://github.com/nirajj87/biodata.git
+cd biodat
+```
 
-### `npm run build`
+### 2️⃣ Install Dependencies:
+```sh
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 3️⃣ Start the Development Server:
+```sh
+npm start
+```
+🔗 Open **[http://localhost:3000/](http://localhost:3000/)** in your browser.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📦 Build for Production
+To generate an optimized build for deployment, run:
+```sh
+npm run build
+```
+This will create a **build/** folder containing static assets.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🚀 Deployment
+You can deploy the app using:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+📌 **CPanel (Public HTML Folder)** – Upload the `build/` folder  
+📌 **Netlify / Vercel** – Drag & drop the `build/` folder  
+📌 **GitHub Pages** *(If applicable)*  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🎨 Screenshots *(Optional)*
+Add some screenshots of your app for better visualization.
+![biodata](https://github.com/user-attachments/assets/9670a43b-e0a6-4906-aade-06659e166293)
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📝 License
+This project is **open-source** and available under the **MIT License**.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+📩 Feel free to contribute, raise issues, or suggest improvements!
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### ⭐ Star this repo if you like it! 🚀
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
