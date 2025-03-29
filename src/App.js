@@ -1,24 +1,17 @@
-import logo from './logo.svg';
+import React from 'react';
+import BiodataForm from './components/BiodataForm';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Layout from "./components/Layout";
 
+// This function returns a layout component with a div containing a BiodataForm component
 function App() {
   return (
+    <Layout>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BiodataForm />
     </div>
+    </Layout>
   );
 }
 
