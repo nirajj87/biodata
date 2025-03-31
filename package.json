@@ -1,6 +1,6 @@
 {
   "name": "marriage-biodata",
-  "homepage": "/boidata",
+  "homepage": "/biodata",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
