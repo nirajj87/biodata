@@ -10,7 +10,10 @@ const capitalizeLabel = (str) => {
 
 const capitalizeValue = (str) => {
   if (typeof str !== 'string' || !str) return '';
-  return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+  return str
+    .split(' ')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+    .join(' ');
 };
 
 const BiodataForm = () => {
@@ -254,8 +257,8 @@ const BiodataPreview = ({ data }) => (
         <img src={data.profile} alt="Profile" className="img-fluid" />
       </div>
     )}
-    
-    <h1 className="text-center mb-4">BIODATA</h1>
+    <h3 className="text-center mb-2 textdanger">ॐ श्री गणेशाय नमः</h3>
+    {/* <h1 className="text-center mb-4 text-danger">BIODATA</h1> */}
 
     <SectionPreview 
       title="Personal Details" 

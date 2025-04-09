@@ -8,9 +8,9 @@
 .profile-photo {
   position: absolute;
   top: 40px;
-  right: 40px;
-  width: 120px;
-  height: 160px;
+  right: 3px;
+  width: 140px;
+  height: 180px;
   border: 3px solid #d4af37;
   background: #fff;
   padding: 5px;
@@ -29,6 +29,9 @@
   margin: 25px 0 15px;
 }
 
+.textdanger{
+  color: #8b0000;
+}
 .dynamic-field-group {
   position: relative;
   margin-bottom: 15px;
